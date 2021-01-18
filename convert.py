@@ -41,7 +41,7 @@ def output_video_clip(frames, output_location, output_frame_rate,
 
 def main():
     clip_frame_cnt = 24 * 12
-    model_id = 'psnr-small'
+    model_id = 'noise-cancel'
     target_video_filename = 'sample.mp4'
     inference_batch_size = 32
     output_frame_rate = 30
